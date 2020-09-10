@@ -1,0 +1,128 @@
+.heart-shape {
+  position: relative;
+  width: 50px;
+  top: 150px;
+  left: 3px;
+  height: 50px;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: rgba(255, 0, 0, 1);
+}
+.heart-shape:before,
+.heart-shape:after {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  content: "";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 1);
+}
+.heart-shape:before {
+  bottom: 0px;
+  left: -30px;
+}
+.heart-shape:after {
+  top: -30px;
+  right: 0px;
+}
+.Box {
+  width: 300px;
+  height: 450px;
+
+  border: 3px solid #000;
+  border-radius: 3%;
+}
+.heart-shape-top {
+  position: relative;
+  width: 20px;
+  top: 20px;
+  height: 20px;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: rgba(255, 0, 0, 1);
+}
+.heart-shape-top:before,
+.heart-shape-top:after {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  content: "";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 1);
+}
+.heart-shape-top:before {
+  bottom: 0px;
+  left: -10px;
+}
+.heart-shape-top:after {
+  top: -10px;
+  right: 0px;
+}
+.heart-shape-bottom {
+  position: relative;
+  width: 20px;
+  bottom: 20px;
+  height: 20px;
+  margin: 0 auto;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  background-color: rgba(255, 0, 0, 1);
+  transform: rotate(225deg);
+}
+.heart-shape-bottom:before,
+.heart-shape-bottom:after {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  content: "";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 1);
+}
+.heart-shape-bottom:before {
+  bottom: 0px;
+  left: -10px;
+}
+.heart-shape-bottom:after {
+  top: -10px;
+  right: 0px;
+}
+.top-symbols {
+  color: red;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 15%;
+  margin-left: 20px;
+  text-align: center;
+}
+.bottom-symbols {
+  color: red;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 15%;
+  margin-left: 230px;
+  text-align: center;
+  margin-top: 250px;
+}
+.A2 {
+  transform: rotate(180deg);
+}
